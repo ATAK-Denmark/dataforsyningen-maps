@@ -1,13 +1,9 @@
 # Dataforsyningen maps
 ---
-## Maps of Denmark from dataforsyningen.dk
-
-\
-&nbsp;
-\
-&nbsp;
+Maps of Denmark from [dataforsyningen.dk](https://dataforsyningen.dk/)
 
 ## Setup
+
 #### Step 1:
   - sign up on [Dataforsyningens](https://dataforsyningen.dk/) and create a [token](https://dataforsyningen.dk/user#token)
     - Guide to create token [here](https://confluence.sdfi.dk/display/MYD/Log+ind+og+Token)
