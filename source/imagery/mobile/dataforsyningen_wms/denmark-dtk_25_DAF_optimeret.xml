@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customMultiLayerMapSource>
+    <name>DK | Topografiske kort 1:25.000 (Optimeret)</name>
+    <tileType>png</tileType>
+    <backgroundColor>#000000</backgroundColor>
+    <north>8103040.0</north>
+    <east>1954520.0</east>
+    <south>6985770.0</south>
+    <west>275897.0</west>
+    <layers>
+        <customWmsMapSource>
+            <name>DTK/Kort25 1:25.000</name>
+            <version>1.1.1</version>
+            <minZoom>14</minZoom>
+            <maxZoom>21</maxZoom>
+            <tileType>png</tileType>
+            <url>https://api.dataforsyningen.dk/dtk_25_DAF?token=replaceme&amp;</url>
+            <coordinatesystem>EPSG:3857</coordinatesystem>
+            <layers>dtk_25</layers>
+            <aditionalparameters><![CDATA[&transparent=true&]]></aditionalparameters>
+        </customWmsMapSource>
+        <customWmsMapSource>
+            <name>DTK/Kort25 1:250.000</name>
+            <version>1.1.1</version>
+            <minZoom>8</minZoom>
+            <maxZoom>13</maxZoom>
+            <tileType>png</tileType>
+            <url>https://api.dataforsyningen.dk/dtk_250_DAF?token=replaceme&amp;</url>
+            <coordinatesystem>EPSG:3857</coordinatesystem>
+            <layers>dtk_250</layers>
+            <aditionalparameters><![CDATA[&transparent=true&]]></aditionalparameters>
+        </customWmsMapSource>
+        <customWmsMapSource>
+            <name>DTK/Kort25 1:500.000</name>
+            <version>1.1.1</version>
+            <minZoom>0</minZoom>
+            <maxZoom>7</maxZoom>
+            <tileType>png</tileType>
+            <url>https://api.dataforsyningen.dk/dtk_500_DAF?token=replaceme&amp;</url>
+            <coordinatesystem>EPSG:3857</coordinatesystem>
+            <layers>dtk_500</layers>
+            <aditionalparameters><![CDATA[&transparent=true&]]></aditionalparameters>
+        </customWmsMapSource>
+    </layers>
+</customMultiLayerMapSource>

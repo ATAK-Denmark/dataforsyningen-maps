@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customMapSource>
+   <name>DK | Ortofoto forår (WMTS)</name>
+   <minZoom>0</minZoom>
+   <maxZoom>20</maxZoom>
+   <tileType>jpg</tileType>
+   <url><![CDATA[https://api.dataforsyningen.dk/orto_foraar_webm_DAF?token=replaceme&version=1.0.0&service=WMTS&request=GetTile&Layer=orto_foraar_webm&style=default&format=image/jpeg&TileMatrixSet=DFD_GoogleMapsCompatible&TileMatrix={$z}&TileRow={$y}&TileCol={$x}]]></url>
+   <tileUpdate>false</tileUpdate>
+   <backgroundColor>#000000</backgroundColor>
+   <ignoreErrors>false</ignoreErrors>
+   <serverParts></serverParts>
+</customMapSource>

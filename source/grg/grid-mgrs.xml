@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customWmsMapSource>
+    <name>Grid | Military Grid Reference System</name>
+    <version>1.1.1</version>
+    <minZoom>0</minZoom>
+    <maxZoom>21</maxZoom>
+    <tileType>png</tileType>
+    <url>https://api.dataforsyningen.dk/grid?token=replaceme&amp;</url>
+    <coordinatesystem>EPSG:3857</coordinatesystem>
+    <layers>utm_reference</layers>
+    <styles>default</styles>
+    <north>8549830.0</north>
+    <east>2203040.0</east>
+    <south>6529440.0</south>
+    <west>280497.0</west>
+    <backgroundColor>#000000</backgroundColor>
+    <aditionalparameters><![CDATA[&transparent=true&]]></aditionalparameters>
+</customWmsMapSource>

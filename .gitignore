@@ -1,0 +1,6 @@
+.env
+.DS_Store
+.secrets
+event.json
+compose.override.yaml
+.temp

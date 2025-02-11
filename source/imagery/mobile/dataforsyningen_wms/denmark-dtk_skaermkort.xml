@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customWmsMapSource>
+    <name>DK | Skærmkort</name>
+    <version>1.1.1</version>
+    <minZoom>0</minZoom>
+    <maxZoom>21</maxZoom>
+    <tileType>png</tileType>
+    <url>https://api.dataforsyningen.dk/topo_skaermkort_DAF?token=replaceme&amp;</url>
+    <coordinatesystem>EPSG:3857</coordinatesystem>
+    <layers>dtk_skaermkort</layers>
+    <north>6500000.0</north>
+    <east>1000000.0</east>
+    <south>5900000.0</south>
+    <west>120000.0</west>
+    <backgroundColor>#000000</backgroundColor>
+    <tileUpdate>false</tileUpdate>
+    <aditionalparameters><![CDATA[&transparent=true&]]></aditionalparameters>
+</customWmsMapSource>
