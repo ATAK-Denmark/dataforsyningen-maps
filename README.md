@@ -5,7 +5,7 @@ Maps of Denmark from [dataforsyningen.dk](https://dataforsyningen.dk/)
 ## Setup
 
 #### Step 1:
-  - sign up on [Dataforsyningens](https://dataforsyningen.dk/) and create a [token](https://dataforsyningen.dk/user#token)
+  - Sign up on [Dataforsyningens](https://dataforsyningen.dk/) and create a [token](https://dataforsyningen.dk/user#token)
     - Guide to create token [here](https://confluence.sdfi.dk/display/MYD/Log+ind+og+Token)
   - Download and unpack the repro [files](https://github.com/ATAK-Denmark/dataforsyningen-maps/archive/refs/heads/main.zip)
 
