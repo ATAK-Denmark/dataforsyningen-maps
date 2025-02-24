@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customWmsMapSource>
+    <name>DK | Sagsbehandlingskort, 1 - 4.000.000</name>
+    <version>1.1.1</version>
+    <tileType>png</tileType>
+    <minZoom>0</minZoom>
+    <maxZoom>21</maxZoom>
+    <url>https://api.dataforsyningen.dk/forvaltning2?token=replaceme&amp;</url>
+    <coordinatesystem>EPSG:3857</coordinatesystem>
+    <layers>Basis_kort%2CStednavne_basiskort%2CHusnummer%2CVejnavne_basiskort</layers>
+    <styles>default</styles>
+    <backgroundColor>#000000</backgroundColor>
+    <aditionalparameters><![CDATA[&transparent=true&]]></aditionalparameters>
+    <north>6500000.0</north>
+    <east>1000000.0</east>
+    <south>5900000.0</south>
+    <west>100000.0</west>
+</customWmsMapSource>

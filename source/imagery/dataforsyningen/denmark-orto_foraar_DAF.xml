@@ -21,18 +21,6 @@
             <aditionalparameters><![CDATA[&transparent=true&]]></aditionalparameters>
         </customWmsMapSource>
         <customWmsMapSource>
-            <name>Stednavne_basiskort</name>
-            <version>1.1.1</version>
-            <minZoom>0</minZoom>
-            <maxZoom>21</maxZoom>
-            <tileType>png</tileType>
-            <url>https://api.dataforsyningen.dk/forvaltning2?token=replaceme&amp;</url>
-            <coordinatesystem>EPSG:3857</coordinatesystem>
-            <layers>Stednavne_basiskort</layers>
-            <styles>default</styles>
-            <aditionalparameters><![CDATA[&transparent=true&]]></aditionalparameters>
-        </customWmsMapSource>
-        <customWmsMapSource>
             <name>Sted_basis_Bynavne</name>
             <version>1.1.1</version>
             <minZoom>0</minZoom>
@@ -40,19 +28,7 @@
             <tileType>png</tileType>
             <url>https://api.dataforsyningen.dk/forvaltning2?token=replaceme&amp;</url>
             <coordinatesystem>EPSG:3857</coordinatesystem>
-            <layers>Sted_basis_Bynavne</layers>
-            <styles>default</styles>
-            <aditionalparameters><![CDATA[&transparent=true&]]></aditionalparameters>
-        </customWmsMapSource>
-        <customWmsMapSource>
-            <name>Vejnavne_ortofoto</name>
-            <version>1.1.1</version>
-            <minZoom>0</minZoom>
-            <maxZoom>21</maxZoom>
-            <tileType>png</tileType>
-            <url>https://api.dataforsyningen.dk/forvaltning2?token=replaceme&amp;</url>
-            <coordinatesystem>EPSG:3857</coordinatesystem>
-            <layers>Vejnavne_ortofoto</layers>
+            <layers>Stednavne_basiskort%2CSted_basis_Bynavne%2CVejnavne_ortofoto</layers>
             <styles>default</styles>
             <aditionalparameters><![CDATA[&transparent=true&]]></aditionalparameters>
         </customWmsMapSource>

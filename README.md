@@ -2,6 +2,10 @@
 ---
 Maps of Denmark from [dataforsyningen.dk](https://dataforsyningen.dk/)
 
+## Status
+
+
+
 ## Setup
 
 #### Step 1:
