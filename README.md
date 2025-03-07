@@ -18,7 +18,8 @@ Maps of Denmark from [dataforsyningen.dk](https://dataforsyningen.dk/)
   - Run the `token.sh` script
 
 #### Step 2: (Windows)
-  - Search and replace for `replaceme` in the .xml files in the `source/` folder. Your favorite editor should be able to do this.
+  - Create a `.env` file (template included) and put in the token
+  - Run the `token.ps1` script
 
 #### Step 4:
   - Copy the folders in `source/` to the `atak` folder on your Android Phone
